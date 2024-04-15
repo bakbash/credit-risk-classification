@@ -53,6 +53,6 @@ logistic regression Model,Accuracy Score:0.99
 ## Summary
 
 I recommend  Logistic Regression model  because of its higher accuracy, precision,  recall  and  F1 score values for both healthy and high-risk loans .
-The performance of the model depends on the specific problem we are trying to solve. In this case, achieving high precision and recall values for high-risk loans is more significant than for healthy loans.
+The performance of the model depends on the specific problem we are trying to solve. In this case, achieving high precision and recall values for high-risk loans is more significant than for healthy loans.Also tried GBM model.
 
 
