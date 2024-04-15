@@ -41,11 +41,13 @@ logistic regression Model,Accuracy Score:0.99
 ## Healthy Loan (0) :
 * Precision: 1.00
 * Recall: 0.99
+* F1:1.00
 
 
 ## High-Risk Loan (1):
 * Precision: 0.84
  * Recall: 0.94
+ * F1:0.89
 
 
 ## Summary
