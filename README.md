@@ -1,9 +1,8 @@
 # credit-risk-classification
 
-# credit-risk-classification
 
 
-## Overview of the Analysis
+## Overview 
 
 Purpose:
 The purpose of this analysis is to develop a machine learning algorithm to classify credit risk as either a healthy or high-risk loan.This helps companies in assessing the creditworthiness of applicants.
