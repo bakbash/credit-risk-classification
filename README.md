@@ -6,7 +6,7 @@
 
 The objective of this project is to develop a machine learning algorithm capable of classifying credit risk. This classification helps in assessing the creditworthiness of loan applicants by categorizing loans as either healthy or high-risk.
 
-##Dataset
+## Dataset
 
 The dataset contains 77,536 records, divided as follows:
 
