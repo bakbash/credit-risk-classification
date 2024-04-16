@@ -4,55 +4,68 @@
 
 ## Overview 
 
-Purpose:
-The purpose of this analysis is to develop a machine learning algorithm to classify credit risk as either a healthy or high-risk loan.This helps companies in assessing the creditworthiness of applicants.
+The objective of this project is to develop a machine learning algorithm capable of classifying credit risk. This classification helps in assessing the creditworthiness of loan applicants by categorizing loans as either healthy or high-risk.
 
-Features: loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. 
-Target: loan_status.
+##Dataset
 
+The dataset contains 77,536 records, divided as follows:
 
- * Dataset: 77,536
- * Train Data:58,152
- * Test Data:19,384
+* Train Data: 58,152 records
+* Test Data: 19,384 records
 
+## Features and Target
 
+# Features
+* Loan Size
+* Interest Rate
+* Borrower Income
+* Debt-to-Income Ratio
+* Number of Accounts
+* Derogatory Marks
+* Total Debt
 
-Steps:(LR model)
-
-Load data into a dataframe.
-
-Create loan_status as labels and use the other columns as features.
-
-Split the data into training and test datasets.
-
-Fit a logistic regression model using the training data.
-
-Save the predictions on the testing data labels by using the testing feature data and the fitted model.
-
-Evaluate the model’s performance by generating a confusion matrix and printing the classification report.
+## Target
+* Loan Status: Indicates the health of the loan (0 for Healthy Loan, 1 for High-Risk Loan).
 
 
+## Model Development Steps
 
+1- Load Data: Import data into a DataFrame.
+2- Prepare Data: Isolate loan_status as the label and use the remaining columns as features.
+3- Split Data: Divide the data into training and test datasets.
+4- Model Training: Fit a logistic regression model using the training data.
+5- Predictions: Use the fitted model to predict loan status on the testing data.
+6- Evaluation: Assess model performance using a confusion matrix and a classification report.
 
 ## Results
-logistic regression Model,Accuracy Score:0.99
 
+# Logistic Regression Model
+* Accuracy Score: 99%
 
-## Healthy Loan (0) :
+Metrics for Healthy Loan (Label 0)
 * Precision: 1.00
 * Recall: 0.99
-* F1:1.00
+* F1 Score: 1.00
 
-
-## High-Risk Loan (1):
+Metrics for High-Risk Loan (Label 1)
 * Precision: 0.84
- * Recall: 0.94
- * F1:0.89
-
+* Recall: 0.94
+* F1 Score: 0.89
 
 ## Summary
 
-I recommend  Logistic Regression model  because of its higher accuracy, precision,  recall  and  F1 score values for both healthy and high-risk loans .
-The performance of the model depends on the specific problem we are trying to solve. In this case, achieving high precision and recall values for high-risk loans is more significant than for healthy loans.Also tried GBM model.
+The Logistic Regression model was selected due to its superior accuracy, precision, recall, and F1 score values for both healthy and high-risk loans. This model is particularly effective in prioritizing the accurate identification of high-risk loans, which is crucial for mitigating potential financial losses.
 
+## Technologies Used
 
+* Python
+* Pandas
+* Scikit-Learn
+
+## How to Run
+
+Include instructions on how to set up and run the model, including any required packages or dependencies.
+
+## Conclusion
+
+The Logistic Regression model demonstrates high effectiveness in classifying credit risks, with excellent performance metrics across both categories of loans. Future improvements could include exploring more complex models like Gradient Boosting Machines (GBM) to potentially enhance predictive performance.
