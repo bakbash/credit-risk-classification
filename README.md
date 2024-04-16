@@ -62,10 +62,6 @@ The Logistic Regression model was selected due to its superior accuracy, precisi
 * Pandas
 * Scikit-Learn
 
-## How to Run
-
-Include instructions on how to set up and run the model, including any required packages or dependencies.
-
 ## Conclusion
 
 The Logistic Regression model demonstrates high effectiveness in classifying credit risks, with excellent performance metrics across both categories of loans. Future improvements could include exploring more complex models like Gradient Boosting Machines (GBM) to potentially enhance predictive performance.
